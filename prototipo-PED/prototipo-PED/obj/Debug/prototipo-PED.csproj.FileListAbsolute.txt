@@ -1,0 +1,12 @@
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\ProyectoFase2\Ciclo01_2021-PED\prototipo-PED\prototipo-PED\bin\Debug\prototipo-PED.exe.config
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\ProyectoFase2\Ciclo01_2021-PED\prototipo-PED\prototipo-PED\bin\Debug\prototipo-PED.exe
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\ProyectoFase2\Ciclo01_2021-PED\prototipo-PED\prototipo-PED\bin\Debug\prototipo-PED.pdb
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\ProyectoFase2\Ciclo01_2021-PED\prototipo-PED\prototipo-PED\obj\Debug\prototipo-PED.csprojResolveAssemblyReference.cache
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\ProyectoFase2\Ciclo01_2021-PED\prototipo-PED\prototipo-PED\obj\Debug\prototipo_PED.cliente.resources
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\ProyectoFase2\Ciclo01_2021-PED\prototipo-PED\prototipo-PED\obj\Debug\prototipo_PED.Form1.resources
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\ProyectoFase2\Ciclo01_2021-PED\prototipo-PED\prototipo-PED\obj\Debug\prototipo_PED.gerente.resources
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\ProyectoFase2\Ciclo01_2021-PED\prototipo-PED\prototipo-PED\obj\Debug\prototipo_PED.mesas.resources
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\ProyectoFase2\Ciclo01_2021-PED\prototipo-PED\prototipo-PED\obj\Debug\prototipo_PED.Properties.Resources.resources
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\ProyectoFase2\Ciclo01_2021-PED\prototipo-PED\prototipo-PED\obj\Debug\prototipo-PED.csproj.GenerateResource.Cache
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\ProyectoFase2\Ciclo01_2021-PED\prototipo-PED\prototipo-PED\obj\Debug\prototipo-PED.exe
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\ProyectoFase2\Ciclo01_2021-PED\prototipo-PED\prototipo-PED\obj\Debug\prototipo-PED.pdb

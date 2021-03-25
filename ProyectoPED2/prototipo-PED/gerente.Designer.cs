@@ -35,12 +35,6 @@
             this.btnSalir = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvReservas = new System.Windows.Forms.DataGridView();
-            this.IDReservacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Mesa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CantPer = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Identificacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label2 = new System.Windows.Forms.Label();
             this.cmb1 = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
@@ -142,13 +136,6 @@
             this.dgvReservas.BackgroundColor = System.Drawing.Color.Snow;
             this.dgvReservas.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvReservas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvReservas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.IDReservacion,
-            this.Mesa,
-            this.CantPer,
-            this.Cliente,
-            this.Identificacion,
-            this.Nombre});
             this.dgvReservas.GridColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvReservas.Location = new System.Drawing.Point(200, 72);
             this.dgvReservas.Margin = new System.Windows.Forms.Padding(2);
@@ -157,48 +144,6 @@
             this.dgvReservas.RowTemplate.Height = 33;
             this.dgvReservas.Size = new System.Drawing.Size(642, 302);
             this.dgvReservas.TabIndex = 2;
-            // 
-            // IDReservacion
-            // 
-            this.IDReservacion.HeaderText = "IDReservacion";
-            this.IDReservacion.MinimumWidth = 10;
-            this.IDReservacion.Name = "IDReservacion";
-            this.IDReservacion.Width = 200;
-            // 
-            // Mesa
-            // 
-            this.Mesa.HeaderText = "Mesa";
-            this.Mesa.MinimumWidth = 10;
-            this.Mesa.Name = "Mesa";
-            this.Mesa.Width = 200;
-            // 
-            // CantPer
-            // 
-            this.CantPer.HeaderText = "CantPersonas";
-            this.CantPer.MinimumWidth = 10;
-            this.CantPer.Name = "CantPer";
-            this.CantPer.Width = 200;
-            // 
-            // Cliente
-            // 
-            this.Cliente.HeaderText = "Cliente";
-            this.Cliente.MinimumWidth = 10;
-            this.Cliente.Name = "Cliente";
-            this.Cliente.Width = 200;
-            // 
-            // Identificacion
-            // 
-            this.Identificacion.HeaderText = "Telefono";
-            this.Identificacion.MinimumWidth = 10;
-            this.Identificacion.Name = "Identificacion";
-            this.Identificacion.Width = 200;
-            // 
-            // Nombre
-            // 
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.MinimumWidth = 10;
-            this.Nombre.Name = "Nombre";
-            this.Nombre.Width = 200;
             // 
             // label2
             // 
@@ -268,12 +213,6 @@
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.DataGridView dgvReservas;
-        private System.Windows.Forms.DataGridViewTextBoxColumn IDReservacion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Mesa;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CantPer;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cliente;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Identificacion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cmb1;
     }

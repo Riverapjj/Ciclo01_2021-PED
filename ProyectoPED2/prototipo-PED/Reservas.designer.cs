@@ -48,7 +48,7 @@ namespace prototipo_PED
     #endregion
 		
 		public Conexion() : 
-				base(global::prototipo_PED.Properties.Settings.Default.PROYECTOConnectionString2, mappingSource)
+				base(global::prototipo_PED.Properties.Settings.Default.PROYECTOConnectionString3, mappingSource)
 		{
 			OnCreated();
 		}
@@ -115,6 +115,13 @@ namespace prototipo_PED
 			{
 				return this.GetTable<Clase>();
 			}
+		}
+		
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.sp_solicitudes")]
+		public ISingleResult<sp_solicitudesResult> sp_solicitudes()
+		{
+			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())));
+			return ((ISingleResult<sp_solicitudesResult>)(result.ReturnValue));
 		}
 	}
 	
@@ -1013,6 +1020,104 @@ namespace prototipo_PED
 		{
 			this.SendPropertyChanging();
 			entity.Clase = null;
+		}
+	}
+	
+	public partial class sp_solicitudesResult
+	{
+		
+		private int _Mesa;
+		
+		private string _Usuario;
+		
+		private System.TimeSpan _Hora;
+		
+		private System.DateTime _Fecha;
+		
+		private string _Estado;
+		
+		public sp_solicitudesResult()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Mesa", DbType="Int NOT NULL")]
+		public int Mesa
+		{
+			get
+			{
+				return this._Mesa;
+			}
+			set
+			{
+				if ((this._Mesa != value))
+				{
+					this._Mesa = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Usuario", DbType="VarChar(255) NOT NULL", CanBeNull=false)]
+		public string Usuario
+		{
+			get
+			{
+				return this._Usuario;
+			}
+			set
+			{
+				if ((this._Usuario != value))
+				{
+					this._Usuario = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Hora", DbType="Time NOT NULL")]
+		public System.TimeSpan Hora
+		{
+			get
+			{
+				return this._Hora;
+			}
+			set
+			{
+				if ((this._Hora != value))
+				{
+					this._Hora = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Fecha", DbType="Date NOT NULL")]
+		public System.DateTime Fecha
+		{
+			get
+			{
+				return this._Fecha;
+			}
+			set
+			{
+				if ((this._Fecha != value))
+				{
+					this._Fecha = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Estado", DbType="NVarChar(255) NOT NULL", CanBeNull=false)]
+		public string Estado
+		{
+			get
+			{
+				return this._Estado;
+			}
+			set
+			{
+				if ((this._Estado != value))
+				{
+					this._Estado = value;
+				}
+			}
 		}
 	}
 }

@@ -14,6 +14,7 @@ namespace prototipo_PED
     public partial class gerente : Form
     {
         Solicitud solicitud = new Solicitud();
+        Conexion con = new Conexion();
         Queue<Soli> [] colas = new Queue<Soli>[13];
         int tec = 0;
         public gerente()
@@ -29,6 +30,14 @@ namespace prototipo_PED
         private void llenardgv()
         {
             dgvReservas.DataSource = null;
+            dgvReservas.DataSource = obtenerSolicitudes();
+        }
+
+        public List<sp_solicitudesResult> obtenerSolicitudes()
+        {
+            var selectSolicitudes = con.sp_solicitudes();
+
+            return selectSolicitudes.ToList();
         }
 
         private void gerente_Load(object sender, EventArgs e)

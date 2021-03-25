@@ -94,3 +94,4 @@ BEGIN
 	INNER JOIN Usuario U ON U.ID = S.ID_Usuario
 	INNER JOIN Clase C ON C.ID = M.ID_Clase
 END
+GO

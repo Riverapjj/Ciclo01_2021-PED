@@ -81,3 +81,16 @@ BEGIN
 		CONSTRAINT FK_Est FOREIGN KEY ([ID_Estado]) REFERENCES [Estado]([ID]) ON DELETE CASCADE ON UPDATE CASCADE
 	)
 END
+
+------------------------------------PROCEDIMIENTOS ALMACENADOS-------------------------------------------
+/*Obtiene todas las solicitudes ingresadas*/
+CREATE PROCEDURE sp_solicitudes
+AS
+BEGIN
+	SELECT ID_Mesa AS Mesa, U.Nombre AS Usuario, C.Nombre AS Capacidad, Hora, Fecha, Estado
+	FROM Solicitud S
+	INNER JOIN Mesa M ON M.ID = S.ID_Mesa
+	INNER JOIN Estado E ON E.ID = S.ID_Estado
+	INNER JOIN Usuario U ON U.ID = S.ID_Usuario
+	INNER JOIN Clase C ON C.ID = M.ID_Clase
+END

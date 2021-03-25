@@ -15,14 +15,14 @@ namespace prototipo_PED
     {
         Solicitud solicitud = new Solicitud();
         Conexion con = new Conexion();
-        Queue<Soli> [] colas = new Queue<Soli>[13];
+        Cola [] colas = new Cola[13];
         int tec = 0;
         public gerente()
         {
             InitializeComponent(); 
             for (int i = 0; i < 13; i++)
             {
-                colas[i] = new Queue<Soli>();
+                colas[i] = new Cola();
             }
             cmb1.SelectedIndex = 0;
             
@@ -71,17 +71,17 @@ namespace prototipo_PED
             {
                 for (int i = 1; i < 13; i++)
                 {
-                    if (colas[i].Count == 0)
+                    if (colas[i].tam == 0)
                     {
                         nuevo.mesa = i;
-                        colas[i].Enqueue(nuevo);
+                        colas[i].Insertar(nuevo);
                         actualizar();
                         return;
                     }
                 }
             }
 
-            colas[x].Enqueue(nuevo);
+            colas[x].Insertar(nuevo);
             actualizar();
         }
 
@@ -92,24 +92,24 @@ namespace prototipo_PED
 
         public void actualizar()
         {
-            dgvReservas.Rows.Clear();
-            foreach (Soli x in colas[cmb1.SelectedIndex])
-            {
-                dgvReservas.Rows.Add(x.ID, x.mesa, 1, 1, "7034-5565", "Juan Perez");
-            }
+            dgvReservas.AutoGenerateColumns = true;
+            List<Soli> nueva = colas[cmb1.SelectedIndex].Mostrar();
+            dgvReservas.DataSource = nueva;
+
+            MessageBox.Show(nueva.Count.ToString());
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             try{
-                colas[cmb1.SelectedIndex].Dequeue();
-                if (colas[cmb1.SelectedIndex].Count == 0)
+                colas[cmb1.SelectedIndex].Eliminar();
+                if (colas[cmb1.SelectedIndex].tam == 0)
                 {
-                    if(colas[0].Count > 0)
+                    if(colas[0].tam > 0)
                     {
-                        colas[cmb1.SelectedIndex].Enqueue(colas[0].Peek());
-                        colas[cmb1.SelectedIndex].Peek().mesa = cmb1.SelectedIndex;
-                        colas[0].Dequeue();
+                        colas[cmb1.SelectedIndex].Insertar(colas[0].inicio.Datos);
+                        colas[cmb1.SelectedIndex].inicio.Datos.mesa = cmb1.SelectedIndex;
+                        colas[0].Eliminar();
                     }
                 }
             }

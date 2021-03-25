@@ -49,3 +49,15 @@ C:\Users\Toshiba\Documents\GitHub\Ciclo01_2021-PED\ProyectoPED2\prototipo-PED\ob
 C:\Users\Toshiba\Documents\GitHub\Ciclo01_2021-PED\ProyectoPED2\prototipo-PED\obj\Debug\prototipo-PED.csproj.CoreCompileInputs.cache
 C:\Users\Toshiba\Documents\GitHub\Ciclo01_2021-PED\ProyectoPED2\prototipo-PED\obj\Debug\prototipo-PED.exe
 C:\Users\Toshiba\Documents\GitHub\Ciclo01_2021-PED\ProyectoPED2\prototipo-PED\obj\Debug\prototipo-PED.pdb
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\Ciclo01_2021-PED\ProyectoPED2\prototipo-PED\bin\Debug\prototipo-PED.exe.config
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\Ciclo01_2021-PED\ProyectoPED2\prototipo-PED\obj\Debug\prototipo-PED.exe
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\Ciclo01_2021-PED\ProyectoPED2\prototipo-PED\obj\Debug\prototipo-PED.pdb
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\Ciclo01_2021-PED\ProyectoPED2\prototipo-PED\bin\Debug\prototipo-PED.exe
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\Ciclo01_2021-PED\ProyectoPED2\prototipo-PED\bin\Debug\prototipo-PED.pdb
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\Ciclo01_2021-PED\ProyectoPED2\prototipo-PED\obj\Debug\prototipo-PED.csprojResolveAssemblyReference.cache
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\Ciclo01_2021-PED\ProyectoPED2\prototipo-PED\obj\Debug\prototipo_PED.cliente.resources
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\Ciclo01_2021-PED\ProyectoPED2\prototipo-PED\obj\Debug\prototipo_PED.Form1.resources
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\Ciclo01_2021-PED\ProyectoPED2\prototipo-PED\obj\Debug\prototipo_PED.gerente.resources
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\Ciclo01_2021-PED\ProyectoPED2\prototipo-PED\obj\Debug\prototipo_PED.mesas.resources
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\Ciclo01_2021-PED\ProyectoPED2\prototipo-PED\obj\Debug\prototipo_PED.Properties.Resources.resources
+C:\Users\Jrodsc\Desktop\UDB\PED\Proyecto\Ciclo01_2021-PED\ProyectoPED2\prototipo-PED\obj\Debug\prototipo-PED.csproj.GenerateResource.Cache

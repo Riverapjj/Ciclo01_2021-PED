@@ -95,8 +95,6 @@ namespace prototipo_PED
             dgvReservas.AutoGenerateColumns = true;
             List<Soli> nueva = colas[cmb1.SelectedIndex].Mostrar();
             dgvReservas.DataSource = nueva;
-
-            MessageBox.Show(nueva.Count.ToString());
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
